@@ -1,0 +1,578 @@
+{
+  "warmup": {
+    "text": "我们慢慢开始吧。先原地走一走，逐渐活动开，呼吸保持自然。",
+    "text_sha256": "7d703bdb2f1d43b3e11c73873a5e9242675bb9a7326800df42f6e95677fe3cd4",
+    "duration": 5.8475,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 31.86
+  },
+  "warmupShoulders": {
+    "text": "现在停稳脚步，轻柔地活动肩膀。向后小幅转肩，动作慢一点，不用用力。",
+    "text_sha256": "5861e9100de9f74278650dcf37548d71e2fc97168d160efcefa0dbf87485590e",
+    "duration": 7.78921,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 24.02
+  },
+  "warmupThoracic": {
+    "text": "双脚站稳，双臂轻轻交叉在胸前，向左右缓慢转动上背，保持在舒服的范围。",
+    "text_sha256": "96495cd6d109dceaef7da5c2e8ae1654d0a127cf983cb5c10f511d4f1eb1a88a",
+    "duration": 8.18108,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 24.96
+  },
+  "warmupEnd": {
+    "text": "热身快完成啦。请准备好哑铃和弹力绳，确认周围留有活动空间。",
+    "text_sha256": "766a2908573d4a61f09c6615469a61571e3bb93c5e17593762356e2ee867756e",
+    "duration": 6.01479,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 19.35
+  },
+  "ready": {
+    "text": "准备，三，二，一。",
+    "text_sha256": "d4dea6d49e35eb740400c0508ba8a2aeec3376e4baacc755d9089d8d7bbcc456",
+    "duration": 3.42908,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 11.72
+  },
+  "rest": {
+    "text": "这一组完成啦，做得很好。先放松肩膀，休息一下。",
+    "text_sha256": "3c2b01e3788b4d46eee6c21c158b408d499ab019a30ce8ba9d4d0aa0bc93848d",
+    "duration": 4.39192,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 14.9
+  },
+  "rest2": {
+    "text": "很好，又完成一组。慢慢调整呼吸，不用赶，我们休息一下。",
+    "text_sha256": "2e628dc8a72df7723499092320a82f67ec64d5e8b676412bdc8dfd3185063fcd",
+    "duration": 5.64629,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 18.13
+  },
+  "rest3": {
+    "text": "做得不错，先把器材放稳。放松双手，休息一下再继续。",
+    "text_sha256": "5b6974b1986a4485a30dc19fdc4731fac4702cd4c56ed31c95b9f8fda9bea73d",
+    "duration": 5.24512,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 17.13
+  },
+  "restEnd": {
+    "text": "还有十秒，准备好下一组。",
+    "text_sha256": "118e53090517c9d30eb6d8841715b0a5cd161a4b22ab032cffff458e5ffede9a",
+    "duration": 2.54188,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 8.44
+  },
+  "transition": {
+    "text": "肩背练习完成啦。把哑铃放稳，接下来做低冲击心肺练习。以还能说话的强度开始。",
+    "text_sha256": "f6ca8dc9a4609419a4e767dc98b527f6540ffe3c96984a08b18a87a9a9afb82e",
+    "duration": 8.5165,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 26.26
+  },
+  "cooldown": {
+    "text": "主要训练完成啦。先放慢脚步，让呼吸慢慢平稳，不用急着坐下。",
+    "text_sha256": "1f0abd9b7f4160f5a5f721a34d78b10f4a29eda831b93c432dc1863a2487a6cd",
+    "duration": 6.22279,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 19.45
+  },
+  "cooldownChest": {
+    "text": "接下来轻柔拉伸胸前。左前臂扶稳固墙面，身体轻轻转开，保持舒服的牵拉，不要憋气。",
+    "text_sha256": "cb07941b9e33135b0aa960d1663ec958a01a47579fcee4fb13a8ddf27770e25f",
+    "duration": 8.84054,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 27.02
+  },
+  "cooldownSwitch": {
+    "text": "慢慢换到右侧。只要轻微的牵拉感就好，不用追求幅度。",
+    "text_sha256": "5b2b0b1c67631f7eed2833c83254340590889da960398894fcdfeeb5268d0c64",
+    "duration": 5.32183,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 17.74
+  },
+  "cooldownBreath": {
+    "text": "双臂放松，回到自然站姿。慢慢呼吸，感受身体平静下来。",
+    "text_sha256": "99d9245c93b358517f96121d70c19d5fb0fb76b83cc656c26a1d70371bcf9b42",
+    "duration": 5.42575,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 18.79
+  },
+  "finish": {
+    "text": "今天练完啦，你做得很好。谢谢你认真照顾自己，记得补水和休息。",
+    "text_sha256": "6546d48734439b7fda84c7507a8aaac2bbafa95fe8b1bebe64d699319661d58b",
+    "duration": 5.77963,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 18.59
+  },
+  "last": {
+    "text": "最后五秒，保持自己的节奏。",
+    "text_sha256": "3d5cb2256569fe57320afbd2cc9dd036986f33f78238e10e88f1f5e22180304f",
+    "duration": 2.34654,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 10.21
+  },
+  "easy": {
+    "text": "放慢脚步，调整呼吸。",
+    "text_sha256": "7d18c86cfeace97305d3ba7eca667778da0c3b9204ea14a0cd751ce0518de21f",
+    "duration": 2.22187,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 9.36
+  },
+  "halfway": {
+    "text": "已经完成一半啦，做得很好。先慢走，调整呼吸。",
+    "text_sha256": "af74541a76d1dabfcbd8ed1e79dcabbc0295ac06a5b004dbeb9fef758c7f7d37",
+    "duration": 5.00025,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 15.56
+  },
+  "march": {
+    "text": "原地快走",
+    "text_sha256": "aad8cf8edc0ce9371fe5ed5a6ed334f3132e96d4ba456f67c97a522cb3a46b6e",
+    "duration": 0.97921,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 4.76
+  },
+  "step": {
+    "text": "左右侧向迈步",
+    "text_sha256": "db900183bac46f0ba82eb6b7c0ca227adb33108814279a71dd26056447001a36",
+    "duration": 1.57417,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 5.46
+  },
+  "box": {
+    "text": "轻松空击拳",
+    "text_sha256": "72b907cf925b7761a9078f2b60cf2b9704cbc2fb1e52d9cc9bf2a1da6996fb81",
+    "duration": 1.15804,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 5.13
+  },
+  "marchHint": {
+    "text": "原地快走。自然摆臂，脚步轻一些，保持自己的节奏。",
+    "text_sha256": "90c03cae03ac96bb693a053e6b4ae36acaef4b5c9b0ab3dbb46c70434ec792ee",
+    "duration": 5.282,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 15.71
+  },
+  "stepHint": {
+    "text": "左右侧向迈步。膝盖微屈，保持身体稳定。",
+    "text_sha256": "811372acf4fbb530055210bf917f0d260574a76d84665f4ccfa5b0054d90a260",
+    "duration": 4.65104,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 14.25
+  },
+  "boxHint": {
+    "text": "轻松空击拳。手中不要拿哑铃，手肘不要锁死。",
+    "text_sha256": "a31950494a2749c0d80a3caed873c71fe1ad2e6304af19b01ea0ccb5e09ed52d",
+    "duration": 4.82304,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 14.56
+  },
+  "sideRight": {
+    "text": "右侧",
+    "text_sha256": "1cf1d4d0b24b0b165510f4b56a2e11a71292518142ec7afc5cfc8d83b44a3e6d",
+    "duration": 0.71371,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 3.61
+  },
+  "sideLeft": {
+    "text": "左侧",
+    "text_sha256": "6a24b14f33c72be4faf4fe51902e59a4981b2086a9cb36c60e9a47f5a0d14524",
+    "duration": 0.58179,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 4.41
+  },
+  "set1": {
+    "text": "第一组",
+    "text_sha256": "ed8e490189b76a6f9eddce659011ac07e6a61d2ac0c64520d4202bafc5d09263",
+    "duration": 0.79371,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 5.02
+  },
+  "set2": {
+    "text": "第二组",
+    "text_sha256": "a89d1ab08f719df9777bff78d858559762bec7f1e1393745d7b5d1f482d19f9a",
+    "duration": 0.71413,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 5.67
+  },
+  "set3": {
+    "text": "第三组",
+    "text_sha256": "237c0a355fb43787d493d867eeff660e566ee3d8f7611cdd623e9be6306f17fc",
+    "duration": 0.75987,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 4.47
+  },
+  "set4": {
+    "text": "第四组",
+    "text_sha256": "53aad82c923822d45f2d1cd84c56ad5a97ec3d551c2e128eb4bfed176ef5a37b",
+    "duration": 0.87833,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 4.66
+  },
+  "row": {
+    "text": "单臂哑铃划船",
+    "text_sha256": "068c1520c80ae15e4635e44051a2decb3c4cad6b4b239f9840c0a7faf9d4497a",
+    "duration": 1.24846,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 4.67
+  },
+  "rowHint": {
+    "text": "一手扶稳固桌面，背部保持稳定，手肘向后拉，再慢慢还原，不要扭腰。",
+    "text_sha256": "176eadafba71909a6d0e0ca2b4968f1edcead5382b0ba15cad19c9e790a653a5",
+    "duration": 7.25404,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 22.86
+  },
+  "rowCue": {
+    "text": "肩膀放松，手肘向后，慢慢还原。",
+    "text_sha256": "861d08c43399c190f9949ce4b88010ebd9ce7082a9920d77188bfb928c3343c6",
+    "duration": 3.81183,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 12.93
+  },
+  "face": {
+    "text": "弹力绳面拉",
+    "text_sha256": "60493ee772e2096a592cab3e6d46e9059ba79d5aab9266cbc13838b9bcb621c1",
+    "duration": 1.19321,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 5.56
+  },
+  "faceHint": {
+    "text": "先检查弹力绳的固定点。用轻阻力，拉向面部两侧，保持肩膀放松。",
+    "text_sha256": "61690f3b4c52894821bda06d04eb12d2b3f1d548d6e8223ca15e1b3bf18cc91e",
+    "duration": 6.47,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 20.95
+  },
+  "faceCue": {
+    "text": "轻轻拉开，保持平稳，不要耸肩。",
+    "text_sha256": "408bd866a68e1cf5e1f2070a2c9ef7457e5b357b2599f3b7b2d9cdd2a5a5b4f4",
+    "duration": 3.28692,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 12.27
+  },
+  "raise": {
+    "text": "哑铃侧平举",
+    "text_sha256": "df23d9bbfa224f2284a7d7f12b70f852fa922f2dab0ccf75cf35ceaf58fb8ec1",
+    "duration": 1.17475,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 5.01
+  },
+  "raiseHint": {
+    "text": "选能控制的轻重量，手肘微屈，向两侧抬到舒服的高度，再慢慢放下。",
+    "text_sha256": "984a69193e4f2adacc9746135bca91650add7b0392defdb19995a42311a0d3a1",
+    "duration": 6.8295,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 22.3
+  },
+  "raiseCue": {
+    "text": "不用抬得很高，稳稳抬起，慢慢放下。",
+    "text_sha256": "2f9372e932967785b631e9d79a3eef3206513badd968692b39f4aa2e08aac0c3",
+    "duration": 2.878,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 11.21
+  },
+  "wall": {
+    "text": "靠墙滑手",
+    "text_sha256": "26c45755e67d903ca5bda7c17d88d3e5b1d52468149e3c44e8966e10f0a44bfc",
+    "duration": 0.95629,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 5.56
+  },
+  "wallHint": {
+    "text": "背靠墙，手臂缓慢上滑，不强迫贴墙，也不要向后塌腰。",
+    "text_sha256": "5eebc5c15ade796cdc224585421fe6739c7c03ee1a6322008b619e2de1326d87",
+    "duration": 5.28079,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 17.46
+  },
+  "wallCue": {
+    "text": "自然呼吸，在舒服的范围内滑动。",
+    "text_sha256": "2fed9feb4a7365af3e2a04a9002997355a172fccee0164e3d84851e60d8e26ed",
+    "duration": 3.09583,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 10.61
+  },
+  "n1": {
+    "text": "一。",
+    "text_sha256": "e44d3895332c7ffa6580e1cc534e4ed7461b217a9bdd543d0192ffbf07ebdf7e",
+    "duration": 0.39779,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 0
+  },
+  "n2": {
+    "text": "二。",
+    "text_sha256": "beb8ed204fc0ddc157ce2e74def8f73fa1ac9ed3e977c243263591d2a9b169c4",
+    "duration": 0.53658,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 0
+  },
+  "n3": {
+    "text": "三。",
+    "text_sha256": "937ecd99a3702ffb48cec41fbdd17cfc14fee80b262aefbafb250e3395ed1f6e",
+    "duration": 0.56588,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 0
+  },
+  "n4": {
+    "text": "四。",
+    "text_sha256": "9666ad496b13b4d6a5e97520a22c874e0e1930d69271e41eadea795199b96850",
+    "duration": 0.57558,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 0
+  },
+  "n5": {
+    "text": "五。",
+    "text_sha256": "4de45ebe082eb2ad9717db094ae46622297e38b90bdba411fd2c0aef0e33be91",
+    "duration": 0.49067,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 0
+  },
+  "n6": {
+    "text": "六。",
+    "text_sha256": "19fa69fd0cf4b3a0f8e1ed108671e7d9c1f7b2f784752654dc1faf693be50353",
+    "duration": 0.33533,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 0
+  },
+  "n7": {
+    "text": "七。",
+    "text_sha256": "9b2feffc062643d79ef5821987f4a6d87cc0121e0a3c2bdb9e0b47afc27a0a09",
+    "duration": 0.48604,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 0
+  },
+  "n8": {
+    "text": "八。",
+    "text_sha256": "b4b212c988b22f216d943295efb85bb0fee1cee285058835ca071cdd0400b70b",
+    "duration": 0.31254,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 0
+  },
+  "n9": {
+    "text": "九。",
+    "text_sha256": "5665ea8599ccaccfde3ebfec36d70867fdf416b1b89318c77e3344ae5c513624",
+    "duration": 0.54508,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 4.57
+  },
+  "n10": {
+    "text": "十。",
+    "text_sha256": "da2d70ddb4af16761640619758ece11e48aa6ac533e395088a74fcfda5d7299f",
+    "duration": 1.23354,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 7.83
+  },
+  "n11": {
+    "text": "十一。",
+    "text_sha256": "970c8005c3cee99037e33b332e7f5254a558132702a9600dabe2392cb689beb3",
+    "duration": 0.95237,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 3.45
+  },
+  "n12": {
+    "text": "十二。",
+    "text_sha256": "9e911c4073eadc40335e40c435ea0f716a171e48ba1bc20d3f7b5ca83385260d",
+    "duration": 0.68467,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 4.86
+  },
+  "n13": {
+    "text": "十三。",
+    "text_sha256": "1836c03cb957b8e9c8f0571e2294d850b1bba06b5d93671e8f9b1707d7468ac8",
+    "duration": 0.67996,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 3.81
+  },
+  "n14": {
+    "text": "十四。",
+    "text_sha256": "c0e86d73a9b54399d69f43c4a3df5f8b88b078ef9c5ef31514d4920dc24391c6",
+    "duration": 0.65454,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 4.01
+  },
+  "n15": {
+    "text": "十五。",
+    "text_sha256": "c5f0365eebfa2103dfc69a473f420625c80c68bd0f37f3b5bf298ed42e6c6b36",
+    "duration": 0.87187,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 4.21
+  },
+  "n16": {
+    "text": "十六。",
+    "text_sha256": "895670e3364e1a70c693d269cc42299d8e2e1b4d8ce865970a3e043b9f264544",
+    "duration": 0.93717,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 4.56
+  },
+  "n17": {
+    "text": "十七。",
+    "text_sha256": "060430f9c7748d2a4818449ac1de954a1676bd8af17609dc4615b2869829f666",
+    "duration": 0.58208,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 3.26
+  },
+  "n18": {
+    "text": "十八。",
+    "text_sha256": "9252fdcf860ec80891be896a4ab06562e0e3d0d6d44df0bce227004c16860d1a",
+    "duration": 0.65283,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 3.15
+  },
+  "n19": {
+    "text": "十九。",
+    "text_sha256": "b91efb3a2d6902ce50d24fb271f5fea47d3f45ce2770316be8b1f850dce0fba2",
+    "duration": 0.80354,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 3.6
+  },
+  "n20": {
+    "text": "二十。",
+    "text_sha256": "d25b5161b80cb94e3999650cb467d00730f0f51bbeb067b217c91ce8765659fb",
+    "duration": 0.54933,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 3.0
+  },
+  "n21": {
+    "text": "二十一。",
+    "text_sha256": "3d1067659681bb1f8eebe72b548c180d341583e5ee014bfe3103ab9d95dfb4f4",
+    "duration": 0.64708,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 4.95
+  },
+  "n22": {
+    "text": "二十二。",
+    "text_sha256": "a92a03a5f9c908c905d2de47d823e59d0a0c315223e19b849f0ca0037d5fa5d5",
+    "duration": 0.65821,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 4.1
+  },
+  "n23": {
+    "text": "二十三。",
+    "text_sha256": "70b58dcc2fc1ae4f4e1a6a446744a99d5283f12195004fc9b9636fd6b4503752",
+    "duration": 0.74208,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 3.7
+  },
+  "n24": {
+    "text": "二十四。",
+    "text_sha256": "0d3be0f6e4ad338cc3d53d2c719df7e08d56c6366da58a4b642743a723b36b05",
+    "duration": 1.55492,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 4.96
+  },
+  "n25": {
+    "text": "二十五。",
+    "text_sha256": "92100d9f792a39a2ab87e69ef0728a62be30e8a934e1a560567c44293783036e",
+    "duration": 0.64008,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 3.7
+  },
+  "n26": {
+    "text": "二十六。",
+    "text_sha256": "d6f5587abdeb53fb5dfb1ca4169f8b0828c3b4c9276f42fe814298e693c3f313",
+    "duration": 0.66075,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 3.55
+  },
+  "n27": {
+    "text": "二十七。",
+    "text_sha256": "d38a065d92c2eefd720e5cf7f96f4f56c6848ea47ae32a43f288f9889d84a930",
+    "duration": 0.71629,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 3.05
+  },
+  "n28": {
+    "text": "二十八。",
+    "text_sha256": "00106f2467c6f9515a2790d9195ca609c041abb8b3d8a84ddea95c6d3982a04b",
+    "duration": 0.64633,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 3.95
+  },
+  "n29": {
+    "text": "二十九。",
+    "text_sha256": "da3046fe6cd01f33fda6e54b0509d22053a6fc48c4cd33e9c0c2d3e6145251ce",
+    "duration": 0.84875,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 3.55
+  },
+  "n30": {
+    "text": "三十。",
+    "text_sha256": "56f29a4336975c0e2f35e707cee1452ae3718fd2ad003fb77cde292b45bacb0c",
+    "duration": 0.75946,
+    "sample_rate": 24000,
+    "voice": "甜美鼓励型",
+    "generation_seconds": 4.67
+  }
+}

@@ -1,0 +1,48 @@
+# Local runtimes and model weights
+/python/
+/venv/
+/.venv/
+/models/
+/wheels/
+/cache/
+/tmp/
+/logs/
+/results/
+/*.pid
+# Generated duplicate bundles
+/trainer/full-sweet.wav
+/trainer/offline.html
+/trainer/offline-package.zip
+# Machine-specific deployment helpers and earlier experiments
+/probe_*.py
+/download_parallel.py
+/check_model_chunks.py
+/copy_python_runtime.py
+/prefetch_packages.py
+/split_torch_chunks.py
+/torch_hash.py
+/upgrade_trainer.py
+/make_three_minute.py
+/test_local.py
+/verify_results.py
+/stop_studio.py
+/使用说明.md
+/完整训练版使用说明.md
+/打开声音工作台.cmd
+/停止声音工作台.cmd
+/生成3分钟跟练.cmd
+/运行本地测试.cmd
+# Secrets, local user data and editor files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+*training-history*.json
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

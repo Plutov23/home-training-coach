@@ -1,0 +1,2390 @@
+{
+  "config": {
+    "mode": "full",
+    "warmup": 300,
+    "cooldown": 180,
+    "rest": 60,
+    "tempo": 4,
+    "cardioMinutes": 8,
+    "work": 40,
+    "recovery": 20,
+    "exercises": [
+      {
+        "id": "row",
+        "name": "单臂哑铃划船",
+        "sets": 2,
+        "reps": 10,
+        "enabled": true
+      },
+      {
+        "id": "face",
+        "name": "弹力绳面拉",
+        "sets": 2,
+        "reps": 12,
+        "enabled": true
+      },
+      {
+        "id": "raise",
+        "name": "哑铃侧平举",
+        "sets": 2,
+        "reps": 10,
+        "enabled": true
+      },
+      {
+        "id": "wall",
+        "name": "靠墙滑手",
+        "sets": 1,
+        "reps": 8,
+        "enabled": true
+      }
+    ]
+  },
+  "segments": [
+    {
+      "kind": "warmup",
+      "title": "热身 · 原地走、转肩与胸椎转动",
+      "duration": 300,
+      "description": "先原地走，再轻柔转肩，最后站稳轻轻转动上背。",
+      "events": [
+        {
+          "at": 0,
+          "key": "warmup"
+        },
+        {
+          "at": 120,
+          "key": "warmupShoulders"
+        },
+        {
+          "at": 210,
+          "key": "warmupThoracic"
+        },
+        {
+          "at": 285,
+          "key": "warmupEnd"
+        }
+      ],
+      "index": 0,
+      "start": 0
+    },
+    {
+      "kind": "prepare",
+      "title": "单臂哑铃划船 · 右侧",
+      "subtitle": "第 1 组 · 10 次",
+      "duration": 17,
+      "description": "一手扶稳固桌面，背部保持稳定，手肘向后拉，再慢慢还原，不要扭腰。",
+      "events": [
+        {
+          "at": 0,
+          "key": "row"
+        },
+        {
+          "at": 1.6984583333333332,
+          "key": "set1"
+        },
+        {
+          "at": 2.9421666666666666,
+          "key": "sideRight"
+        },
+        {
+          "at": 4.105875,
+          "key": "rowHint"
+        },
+        {
+          "at": 11.809916666666666,
+          "key": "ready"
+        }
+      ],
+      "index": 1,
+      "start": 300
+    },
+    {
+      "kind": "strength",
+      "title": "单臂哑铃划船 · 右侧",
+      "subtitle": "第 1 / 2 组",
+      "duration": 40,
+      "reps": 10,
+      "tempo": 4,
+      "description": "一手扶稳固桌面，背部保持稳定，手肘向后拉，再慢慢还原，不要扭腰。",
+      "events": [
+        {
+          "at": 0,
+          "key": "n1"
+        },
+        {
+          "at": 4,
+          "key": "n2"
+        },
+        {
+          "at": 8,
+          "key": "n3"
+        },
+        {
+          "at": 12,
+          "key": "n4"
+        },
+        {
+          "at": 16,
+          "key": "n5"
+        },
+        {
+          "at": 20,
+          "key": "n6"
+        },
+        {
+          "at": 24,
+          "key": "n7"
+        },
+        {
+          "at": 28,
+          "key": "n8"
+        },
+        {
+          "at": 32,
+          "key": "n9"
+        },
+        {
+          "at": 36,
+          "key": "n10"
+        }
+      ],
+      "index": 2,
+      "start": 317
+    },
+    {
+      "kind": "rest",
+      "title": "组间休息",
+      "duration": 60,
+      "description": "放松肩膀，自然呼吸。需要更长休息可以暂停。",
+      "events": [
+        {
+          "at": 0,
+          "key": "rest"
+        },
+        {
+          "at": 50,
+          "key": "restEnd"
+        }
+      ],
+      "index": 3,
+      "start": 357
+    },
+    {
+      "kind": "prepare",
+      "title": "单臂哑铃划船 · 左侧",
+      "subtitle": "第 1 组 · 10 次",
+      "duration": 13,
+      "description": "一手扶稳固桌面，背部保持稳定，手肘向后拉，再慢慢还原，不要扭腰。",
+      "events": [
+        {
+          "at": 0,
+          "key": "row"
+        },
+        {
+          "at": 1.6984583333333332,
+          "key": "set1"
+        },
+        {
+          "at": 2.9421666666666666,
+          "key": "sideLeft"
+        },
+        {
+          "at": 3.973958333333333,
+          "key": "rowCue"
+        },
+        {
+          "at": 8.235791666666668,
+          "key": "ready"
+        }
+      ],
+      "index": 4,
+      "start": 417
+    },
+    {
+      "kind": "strength",
+      "title": "单臂哑铃划船 · 左侧",
+      "subtitle": "第 1 / 2 组",
+      "duration": 40,
+      "reps": 10,
+      "tempo": 4,
+      "description": "一手扶稳固桌面，背部保持稳定，手肘向后拉，再慢慢还原，不要扭腰。",
+      "events": [
+        {
+          "at": 0,
+          "key": "n1"
+        },
+        {
+          "at": 4,
+          "key": "n2"
+        },
+        {
+          "at": 8,
+          "key": "n3"
+        },
+        {
+          "at": 12,
+          "key": "n4"
+        },
+        {
+          "at": 16,
+          "key": "n5"
+        },
+        {
+          "at": 20,
+          "key": "n6"
+        },
+        {
+          "at": 24,
+          "key": "n7"
+        },
+        {
+          "at": 28,
+          "key": "n8"
+        },
+        {
+          "at": 32,
+          "key": "n9"
+        },
+        {
+          "at": 36,
+          "key": "n10"
+        }
+      ],
+      "index": 5,
+      "start": 430
+    },
+    {
+      "kind": "rest",
+      "title": "组间休息",
+      "duration": 60,
+      "description": "放松肩膀，自然呼吸。需要更长休息可以暂停。",
+      "events": [
+        {
+          "at": 0,
+          "key": "rest2"
+        },
+        {
+          "at": 50,
+          "key": "restEnd"
+        }
+      ],
+      "index": 6,
+      "start": 470
+    },
+    {
+      "kind": "prepare",
+      "title": "单臂哑铃划船 · 右侧",
+      "subtitle": "第 2 组 · 10 次",
+      "duration": 13,
+      "description": "一手扶稳固桌面，背部保持稳定，手肘向后拉，再慢慢还原，不要扭腰。",
+      "events": [
+        {
+          "at": 0,
+          "key": "row"
+        },
+        {
+          "at": 1.6984583333333332,
+          "key": "set2"
+        },
+        {
+          "at": 2.8625833333333333,
+          "key": "sideRight"
+        },
+        {
+          "at": 4.026291666666666,
+          "key": "rowCue"
+        },
+        {
+          "at": 8.288125,
+          "key": "ready"
+        }
+      ],
+      "index": 7,
+      "start": 530
+    },
+    {
+      "kind": "strength",
+      "title": "单臂哑铃划船 · 右侧",
+      "subtitle": "第 2 / 2 组",
+      "duration": 40,
+      "reps": 10,
+      "tempo": 4,
+      "description": "一手扶稳固桌面，背部保持稳定，手肘向后拉，再慢慢还原，不要扭腰。",
+      "events": [
+        {
+          "at": 0,
+          "key": "n1"
+        },
+        {
+          "at": 4,
+          "key": "n2"
+        },
+        {
+          "at": 8,
+          "key": "n3"
+        },
+        {
+          "at": 12,
+          "key": "n4"
+        },
+        {
+          "at": 16,
+          "key": "n5"
+        },
+        {
+          "at": 20,
+          "key": "n6"
+        },
+        {
+          "at": 24,
+          "key": "n7"
+        },
+        {
+          "at": 28,
+          "key": "n8"
+        },
+        {
+          "at": 32,
+          "key": "n9"
+        },
+        {
+          "at": 36,
+          "key": "n10"
+        }
+      ],
+      "index": 8,
+      "start": 543
+    },
+    {
+      "kind": "rest",
+      "title": "组间休息",
+      "duration": 60,
+      "description": "放松肩膀，自然呼吸。需要更长休息可以暂停。",
+      "events": [
+        {
+          "at": 0,
+          "key": "rest3"
+        },
+        {
+          "at": 50,
+          "key": "restEnd"
+        }
+      ],
+      "index": 9,
+      "start": 583
+    },
+    {
+      "kind": "prepare",
+      "title": "单臂哑铃划船 · 左侧",
+      "subtitle": "第 2 组 · 10 次",
+      "duration": 13,
+      "description": "一手扶稳固桌面，背部保持稳定，手肘向后拉，再慢慢还原，不要扭腰。",
+      "events": [
+        {
+          "at": 0,
+          "key": "row"
+        },
+        {
+          "at": 1.6984583333333332,
+          "key": "set2"
+        },
+        {
+          "at": 2.8625833333333333,
+          "key": "sideLeft"
+        },
+        {
+          "at": 3.894375,
+          "key": "rowCue"
+        },
+        {
+          "at": 8.156208333333334,
+          "key": "ready"
+        }
+      ],
+      "index": 10,
+      "start": 643
+    },
+    {
+      "kind": "strength",
+      "title": "单臂哑铃划船 · 左侧",
+      "subtitle": "第 2 / 2 组",
+      "duration": 40,
+      "reps": 10,
+      "tempo": 4,
+      "description": "一手扶稳固桌面，背部保持稳定，手肘向后拉，再慢慢还原，不要扭腰。",
+      "events": [
+        {
+          "at": 0,
+          "key": "n1"
+        },
+        {
+          "at": 4,
+          "key": "n2"
+        },
+        {
+          "at": 8,
+          "key": "n3"
+        },
+        {
+          "at": 12,
+          "key": "n4"
+        },
+        {
+          "at": 16,
+          "key": "n5"
+        },
+        {
+          "at": 20,
+          "key": "n6"
+        },
+        {
+          "at": 24,
+          "key": "n7"
+        },
+        {
+          "at": 28,
+          "key": "n8"
+        },
+        {
+          "at": 32,
+          "key": "n9"
+        },
+        {
+          "at": 36,
+          "key": "n10"
+        }
+      ],
+      "index": 11,
+      "start": 656
+    },
+    {
+      "kind": "rest",
+      "title": "组间休息",
+      "duration": 60,
+      "description": "放松肩膀，自然呼吸。需要更长休息可以暂停。",
+      "events": [
+        {
+          "at": 0,
+          "key": "rest"
+        },
+        {
+          "at": 50,
+          "key": "restEnd"
+        }
+      ],
+      "index": 12,
+      "start": 696
+    },
+    {
+      "kind": "prepare",
+      "title": "弹力绳面拉",
+      "subtitle": "第 1 组 · 12 次",
+      "duration": 15,
+      "description": "先检查弹力绳的固定点。用轻阻力，拉向面部两侧，保持肩膀放松。",
+      "events": [
+        {
+          "at": 0,
+          "key": "face"
+        },
+        {
+          "at": 1.6432083333333334,
+          "key": "set1"
+        },
+        {
+          "at": 2.886916666666667,
+          "key": "faceHint"
+        },
+        {
+          "at": 9.806916666666666,
+          "key": "ready"
+        }
+      ],
+      "index": 13,
+      "start": 756
+    },
+    {
+      "kind": "strength",
+      "title": "弹力绳面拉",
+      "subtitle": "第 1 / 2 组",
+      "duration": 48,
+      "reps": 12,
+      "tempo": 4,
+      "description": "先检查弹力绳的固定点。用轻阻力，拉向面部两侧，保持肩膀放松。",
+      "events": [
+        {
+          "at": 0,
+          "key": "n1"
+        },
+        {
+          "at": 4,
+          "key": "n2"
+        },
+        {
+          "at": 8,
+          "key": "n3"
+        },
+        {
+          "at": 12,
+          "key": "n4"
+        },
+        {
+          "at": 16,
+          "key": "n5"
+        },
+        {
+          "at": 20,
+          "key": "n6"
+        },
+        {
+          "at": 24,
+          "key": "n7"
+        },
+        {
+          "at": 28,
+          "key": "n8"
+        },
+        {
+          "at": 32,
+          "key": "n9"
+        },
+        {
+          "at": 36,
+          "key": "n10"
+        },
+        {
+          "at": 40,
+          "key": "n11"
+        },
+        {
+          "at": 44,
+          "key": "n12"
+        }
+      ],
+      "index": 14,
+      "start": 771
+    },
+    {
+      "kind": "rest",
+      "title": "组间休息",
+      "duration": 60,
+      "description": "放松肩膀，自然呼吸。需要更长休息可以暂停。",
+      "events": [
+        {
+          "at": 0,
+          "key": "rest2"
+        },
+        {
+          "at": 50,
+          "key": "restEnd"
+        }
+      ],
+      "index": 15,
+      "start": 819
+    },
+    {
+      "kind": "prepare",
+      "title": "弹力绳面拉",
+      "subtitle": "第 2 组 · 12 次",
+      "duration": 12,
+      "description": "先检查弹力绳的固定点。用轻阻力，拉向面部两侧，保持肩膀放松。",
+      "events": [
+        {
+          "at": 0,
+          "key": "face"
+        },
+        {
+          "at": 1.6432083333333334,
+          "key": "set2"
+        },
+        {
+          "at": 2.8073333333333332,
+          "key": "faceCue"
+        },
+        {
+          "at": 6.54425,
+          "key": "ready"
+        }
+      ],
+      "index": 16,
+      "start": 879
+    },
+    {
+      "kind": "strength",
+      "title": "弹力绳面拉",
+      "subtitle": "第 2 / 2 组",
+      "duration": 48,
+      "reps": 12,
+      "tempo": 4,
+      "description": "先检查弹力绳的固定点。用轻阻力，拉向面部两侧，保持肩膀放松。",
+      "events": [
+        {
+          "at": 0,
+          "key": "n1"
+        },
+        {
+          "at": 4,
+          "key": "n2"
+        },
+        {
+          "at": 8,
+          "key": "n3"
+        },
+        {
+          "at": 12,
+          "key": "n4"
+        },
+        {
+          "at": 16,
+          "key": "n5"
+        },
+        {
+          "at": 20,
+          "key": "n6"
+        },
+        {
+          "at": 24,
+          "key": "n7"
+        },
+        {
+          "at": 28,
+          "key": "n8"
+        },
+        {
+          "at": 32,
+          "key": "n9"
+        },
+        {
+          "at": 36,
+          "key": "n10"
+        },
+        {
+          "at": 40,
+          "key": "n11"
+        },
+        {
+          "at": 44,
+          "key": "n12"
+        }
+      ],
+      "index": 17,
+      "start": 891
+    },
+    {
+      "kind": "rest",
+      "title": "组间休息",
+      "duration": 60,
+      "description": "放松肩膀，自然呼吸。需要更长休息可以暂停。",
+      "events": [
+        {
+          "at": 0,
+          "key": "rest3"
+        },
+        {
+          "at": 50,
+          "key": "restEnd"
+        }
+      ],
+      "index": 18,
+      "start": 939
+    },
+    {
+      "kind": "prepare",
+      "title": "哑铃侧平举",
+      "subtitle": "第 1 组 · 10 次",
+      "duration": 15,
+      "description": "选能控制的轻重量，手肘微屈，向两侧抬到舒服的高度，再慢慢放下。",
+      "events": [
+        {
+          "at": 0,
+          "key": "raise"
+        },
+        {
+          "at": 1.62475,
+          "key": "set1"
+        },
+        {
+          "at": 2.8684583333333333,
+          "key": "raiseHint"
+        },
+        {
+          "at": 10.147958333333333,
+          "key": "ready"
+        }
+      ],
+      "index": 19,
+      "start": 999
+    },
+    {
+      "kind": "strength",
+      "title": "哑铃侧平举",
+      "subtitle": "第 1 / 2 组",
+      "duration": 40,
+      "reps": 10,
+      "tempo": 4,
+      "description": "选能控制的轻重量，手肘微屈，向两侧抬到舒服的高度，再慢慢放下。",
+      "events": [
+        {
+          "at": 0,
+          "key": "n1"
+        },
+        {
+          "at": 4,
+          "key": "n2"
+        },
+        {
+          "at": 8,
+          "key": "n3"
+        },
+        {
+          "at": 12,
+          "key": "n4"
+        },
+        {
+          "at": 16,
+          "key": "n5"
+        },
+        {
+          "at": 20,
+          "key": "n6"
+        },
+        {
+          "at": 24,
+          "key": "n7"
+        },
+        {
+          "at": 28,
+          "key": "n8"
+        },
+        {
+          "at": 32,
+          "key": "n9"
+        },
+        {
+          "at": 36,
+          "key": "n10"
+        }
+      ],
+      "index": 20,
+      "start": 1014
+    },
+    {
+      "kind": "rest",
+      "title": "组间休息",
+      "duration": 60,
+      "description": "放松肩膀，自然呼吸。需要更长休息可以暂停。",
+      "events": [
+        {
+          "at": 0,
+          "key": "rest"
+        },
+        {
+          "at": 50,
+          "key": "restEnd"
+        }
+      ],
+      "index": 21,
+      "start": 1054
+    },
+    {
+      "kind": "prepare",
+      "title": "哑铃侧平举",
+      "subtitle": "第 2 组 · 10 次",
+      "duration": 11,
+      "description": "选能控制的轻重量，手肘微屈，向两侧抬到舒服的高度，再慢慢放下。",
+      "events": [
+        {
+          "at": 0,
+          "key": "raise"
+        },
+        {
+          "at": 1.62475,
+          "key": "set2"
+        },
+        {
+          "at": 2.788875,
+          "key": "raiseCue"
+        },
+        {
+          "at": 6.116875,
+          "key": "ready"
+        }
+      ],
+      "index": 22,
+      "start": 1114
+    },
+    {
+      "kind": "strength",
+      "title": "哑铃侧平举",
+      "subtitle": "第 2 / 2 组",
+      "duration": 40,
+      "reps": 10,
+      "tempo": 4,
+      "description": "选能控制的轻重量，手肘微屈，向两侧抬到舒服的高度，再慢慢放下。",
+      "events": [
+        {
+          "at": 0,
+          "key": "n1"
+        },
+        {
+          "at": 4,
+          "key": "n2"
+        },
+        {
+          "at": 8,
+          "key": "n3"
+        },
+        {
+          "at": 12,
+          "key": "n4"
+        },
+        {
+          "at": 16,
+          "key": "n5"
+        },
+        {
+          "at": 20,
+          "key": "n6"
+        },
+        {
+          "at": 24,
+          "key": "n7"
+        },
+        {
+          "at": 28,
+          "key": "n8"
+        },
+        {
+          "at": 32,
+          "key": "n9"
+        },
+        {
+          "at": 36,
+          "key": "n10"
+        }
+      ],
+      "index": 23,
+      "start": 1125
+    },
+    {
+      "kind": "rest",
+      "title": "组间休息",
+      "duration": 60,
+      "description": "放松肩膀，自然呼吸。需要更长休息可以暂停。",
+      "events": [
+        {
+          "at": 0,
+          "key": "rest2"
+        },
+        {
+          "at": 50,
+          "key": "restEnd"
+        }
+      ],
+      "index": 24,
+      "start": 1165
+    },
+    {
+      "kind": "prepare",
+      "title": "靠墙滑手",
+      "subtitle": "第 1 组 · 8 次",
+      "duration": 13,
+      "description": "背靠墙，手臂缓慢上滑，不强迫贴墙，也不要向后塌腰。",
+      "events": [
+        {
+          "at": 0,
+          "key": "wall"
+        },
+        {
+          "at": 1.4062916666666667,
+          "key": "set1"
+        },
+        {
+          "at": 2.6500000000000004,
+          "key": "wallHint"
+        },
+        {
+          "at": 8.380791666666667,
+          "key": "ready"
+        }
+      ],
+      "index": 25,
+      "start": 1225
+    },
+    {
+      "kind": "strength",
+      "title": "靠墙滑手",
+      "subtitle": "第 1 / 1 组",
+      "duration": 32,
+      "reps": 8,
+      "tempo": 4,
+      "description": "背靠墙，手臂缓慢上滑，不强迫贴墙，也不要向后塌腰。",
+      "events": [
+        {
+          "at": 0,
+          "key": "n1"
+        },
+        {
+          "at": 4,
+          "key": "n2"
+        },
+        {
+          "at": 8,
+          "key": "n3"
+        },
+        {
+          "at": 12,
+          "key": "n4"
+        },
+        {
+          "at": 16,
+          "key": "n5"
+        },
+        {
+          "at": 20,
+          "key": "n6"
+        },
+        {
+          "at": 24,
+          "key": "n7"
+        },
+        {
+          "at": 28,
+          "key": "n8"
+        }
+      ],
+      "index": 26,
+      "start": 1238
+    },
+    {
+      "kind": "prepare",
+      "title": "准备心肺练习",
+      "subtitle": "8 分钟 · 无需哑铃",
+      "duration": 14,
+      "description": "肩背练习完成啦。把哑铃放稳，接下来做低冲击心肺练习。以还能说话的强度开始。",
+      "events": [
+        {
+          "at": 0,
+          "key": "transition"
+        },
+        {
+          "at": 8.9665,
+          "key": "ready"
+        }
+      ],
+      "index": 27,
+      "start": 1270
+    },
+    {
+      "kind": "cardio",
+      "title": "原地快走",
+      "subtitle": "第 1 / 8 分钟",
+      "duration": 40,
+      "description": "原地快走。自然摆臂，脚步轻一些，保持自己的节奏。 呼吸加快，但仍能说话。",
+      "events": [
+        {
+          "at": 0,
+          "key": "marchHint"
+        },
+        {
+          "at": 35,
+          "key": "last"
+        }
+      ],
+      "index": 28,
+      "start": 1284
+    },
+    {
+      "kind": "recovery",
+      "title": "慢走恢复",
+      "subtitle": "第 1 / 8 分钟",
+      "duration": 20,
+      "description": "保持轻轻走动，让呼吸逐渐平稳。",
+      "events": [
+        {
+          "at": 0,
+          "key": "easy"
+        }
+      ],
+      "index": 29,
+      "start": 1324
+    },
+    {
+      "kind": "cardio",
+      "title": "左右侧向迈步",
+      "subtitle": "第 2 / 8 分钟",
+      "duration": 40,
+      "description": "左右侧向迈步。膝盖微屈，保持身体稳定。 呼吸加快，但仍能说话。",
+      "events": [
+        {
+          "at": 0,
+          "key": "stepHint"
+        },
+        {
+          "at": 35,
+          "key": "last"
+        }
+      ],
+      "index": 30,
+      "start": 1344
+    },
+    {
+      "kind": "recovery",
+      "title": "慢走恢复",
+      "subtitle": "第 2 / 8 分钟",
+      "duration": 20,
+      "description": "保持轻轻走动，让呼吸逐渐平稳。",
+      "events": [
+        {
+          "at": 0,
+          "key": "easy"
+        }
+      ],
+      "index": 31,
+      "start": 1384
+    },
+    {
+      "kind": "cardio",
+      "title": "轻松空击拳",
+      "subtitle": "第 3 / 8 分钟",
+      "duration": 40,
+      "description": "轻松空击拳。手中不要拿哑铃，手肘不要锁死。 呼吸加快，但仍能说话。",
+      "events": [
+        {
+          "at": 0,
+          "key": "boxHint"
+        },
+        {
+          "at": 35,
+          "key": "last"
+        }
+      ],
+      "index": 32,
+      "start": 1404
+    },
+    {
+      "kind": "recovery",
+      "title": "慢走恢复",
+      "subtitle": "第 3 / 8 分钟",
+      "duration": 20,
+      "description": "保持轻轻走动，让呼吸逐渐平稳。",
+      "events": [
+        {
+          "at": 0,
+          "key": "easy"
+        }
+      ],
+      "index": 33,
+      "start": 1444
+    },
+    {
+      "kind": "cardio",
+      "title": "原地快走",
+      "subtitle": "第 4 / 8 分钟",
+      "duration": 40,
+      "description": "原地快走。自然摆臂，脚步轻一些，保持自己的节奏。 呼吸加快，但仍能说话。",
+      "events": [
+        {
+          "at": 0,
+          "key": "marchHint"
+        },
+        {
+          "at": 35,
+          "key": "last"
+        }
+      ],
+      "index": 34,
+      "start": 1464
+    },
+    {
+      "kind": "recovery",
+      "title": "慢走恢复",
+      "subtitle": "第 4 / 8 分钟",
+      "duration": 20,
+      "description": "保持轻轻走动，让呼吸逐渐平稳。",
+      "events": [
+        {
+          "at": 0,
+          "key": "halfway"
+        }
+      ],
+      "index": 35,
+      "start": 1504
+    },
+    {
+      "kind": "cardio",
+      "title": "左右侧向迈步",
+      "subtitle": "第 5 / 8 分钟",
+      "duration": 40,
+      "description": "左右侧向迈步。膝盖微屈，保持身体稳定。 呼吸加快，但仍能说话。",
+      "events": [
+        {
+          "at": 0,
+          "key": "stepHint"
+        },
+        {
+          "at": 35,
+          "key": "last"
+        }
+      ],
+      "index": 36,
+      "start": 1524
+    },
+    {
+      "kind": "recovery",
+      "title": "慢走恢复",
+      "subtitle": "第 5 / 8 分钟",
+      "duration": 20,
+      "description": "保持轻轻走动，让呼吸逐渐平稳。",
+      "events": [
+        {
+          "at": 0,
+          "key": "easy"
+        }
+      ],
+      "index": 37,
+      "start": 1564
+    },
+    {
+      "kind": "cardio",
+      "title": "轻松空击拳",
+      "subtitle": "第 6 / 8 分钟",
+      "duration": 40,
+      "description": "轻松空击拳。手中不要拿哑铃，手肘不要锁死。 呼吸加快，但仍能说话。",
+      "events": [
+        {
+          "at": 0,
+          "key": "boxHint"
+        },
+        {
+          "at": 35,
+          "key": "last"
+        }
+      ],
+      "index": 38,
+      "start": 1584
+    },
+    {
+      "kind": "recovery",
+      "title": "慢走恢复",
+      "subtitle": "第 6 / 8 分钟",
+      "duration": 20,
+      "description": "保持轻轻走动，让呼吸逐渐平稳。",
+      "events": [
+        {
+          "at": 0,
+          "key": "easy"
+        }
+      ],
+      "index": 39,
+      "start": 1624
+    },
+    {
+      "kind": "cardio",
+      "title": "原地快走",
+      "subtitle": "第 7 / 8 分钟",
+      "duration": 40,
+      "description": "原地快走。自然摆臂，脚步轻一些，保持自己的节奏。 呼吸加快，但仍能说话。",
+      "events": [
+        {
+          "at": 0,
+          "key": "marchHint"
+        },
+        {
+          "at": 35,
+          "key": "last"
+        }
+      ],
+      "index": 40,
+      "start": 1644
+    },
+    {
+      "kind": "recovery",
+      "title": "慢走恢复",
+      "subtitle": "第 7 / 8 分钟",
+      "duration": 20,
+      "description": "保持轻轻走动，让呼吸逐渐平稳。",
+      "events": [
+        {
+          "at": 0,
+          "key": "easy"
+        }
+      ],
+      "index": 41,
+      "start": 1684
+    },
+    {
+      "kind": "cardio",
+      "title": "左右侧向迈步",
+      "subtitle": "第 8 / 8 分钟",
+      "duration": 40,
+      "description": "左右侧向迈步。膝盖微屈，保持身体稳定。 呼吸加快，但仍能说话。",
+      "events": [
+        {
+          "at": 0,
+          "key": "stepHint"
+        },
+        {
+          "at": 35,
+          "key": "last"
+        }
+      ],
+      "index": 42,
+      "start": 1704
+    },
+    {
+      "kind": "recovery",
+      "title": "慢走恢复",
+      "subtitle": "第 8 / 8 分钟",
+      "duration": 20,
+      "description": "保持轻轻走动，让呼吸逐渐平稳。",
+      "events": [
+        {
+          "at": 0,
+          "key": "easy"
+        }
+      ],
+      "index": 43,
+      "start": 1744
+    },
+    {
+      "kind": "cooldown",
+      "title": "慢走与轻柔胸前拉伸",
+      "duration": 180,
+      "description": "先慢走，再轻柔拉伸左右两侧胸前，最后放松呼吸。",
+      "events": [
+        {
+          "at": 0,
+          "key": "cooldown"
+        },
+        {
+          "at": 90,
+          "key": "cooldownChest"
+        },
+        {
+          "at": 120,
+          "key": "cooldownSwitch"
+        },
+        {
+          "at": 150,
+          "key": "cooldownBreath"
+        }
+      ],
+      "index": 44,
+      "start": 1764
+    },
+    {
+      "kind": "finish",
+      "title": "训练完成",
+      "duration": 7,
+      "description": "今天练完啦，你做得很好。谢谢你认真照顾自己，记得补水和休息。",
+      "events": [
+        {
+          "at": 0,
+          "key": "finish"
+        }
+      ],
+      "index": 45,
+      "start": 1944
+    }
+  ],
+  "duration": 1951,
+  "events": [
+    {
+      "at": 0,
+      "key": "warmup",
+      "time": 0,
+      "segment": 0
+    },
+    {
+      "at": 120,
+      "key": "warmupShoulders",
+      "time": 120,
+      "segment": 0
+    },
+    {
+      "at": 210,
+      "key": "warmupThoracic",
+      "time": 210,
+      "segment": 0
+    },
+    {
+      "at": 285,
+      "key": "warmupEnd",
+      "time": 285,
+      "segment": 0
+    },
+    {
+      "at": 0,
+      "key": "row",
+      "time": 300,
+      "segment": 1
+    },
+    {
+      "at": 1.6984583333333332,
+      "key": "set1",
+      "time": 301.69845833333335,
+      "segment": 1
+    },
+    {
+      "at": 2.9421666666666666,
+      "key": "sideRight",
+      "time": 302.94216666666665,
+      "segment": 1
+    },
+    {
+      "at": 4.105875,
+      "key": "rowHint",
+      "time": 304.105875,
+      "segment": 1
+    },
+    {
+      "at": 11.809916666666666,
+      "key": "ready",
+      "time": 311.80991666666665,
+      "segment": 1
+    },
+    {
+      "at": 0,
+      "key": "n1",
+      "time": 317,
+      "segment": 2
+    },
+    {
+      "at": 4,
+      "key": "n2",
+      "time": 321,
+      "segment": 2
+    },
+    {
+      "at": 8,
+      "key": "n3",
+      "time": 325,
+      "segment": 2
+    },
+    {
+      "at": 12,
+      "key": "n4",
+      "time": 329,
+      "segment": 2
+    },
+    {
+      "at": 16,
+      "key": "n5",
+      "time": 333,
+      "segment": 2
+    },
+    {
+      "at": 20,
+      "key": "n6",
+      "time": 337,
+      "segment": 2
+    },
+    {
+      "at": 24,
+      "key": "n7",
+      "time": 341,
+      "segment": 2
+    },
+    {
+      "at": 28,
+      "key": "n8",
+      "time": 345,
+      "segment": 2
+    },
+    {
+      "at": 32,
+      "key": "n9",
+      "time": 349,
+      "segment": 2
+    },
+    {
+      "at": 36,
+      "key": "n10",
+      "time": 353,
+      "segment": 2
+    },
+    {
+      "at": 0,
+      "key": "rest",
+      "time": 357,
+      "segment": 3
+    },
+    {
+      "at": 50,
+      "key": "restEnd",
+      "time": 407,
+      "segment": 3
+    },
+    {
+      "at": 0,
+      "key": "row",
+      "time": 417,
+      "segment": 4
+    },
+    {
+      "at": 1.6984583333333332,
+      "key": "set1",
+      "time": 418.69845833333335,
+      "segment": 4
+    },
+    {
+      "at": 2.9421666666666666,
+      "key": "sideLeft",
+      "time": 419.94216666666665,
+      "segment": 4
+    },
+    {
+      "at": 3.973958333333333,
+      "key": "rowCue",
+      "time": 420.9739583333333,
+      "segment": 4
+    },
+    {
+      "at": 8.235791666666668,
+      "key": "ready",
+      "time": 425.23579166666667,
+      "segment": 4
+    },
+    {
+      "at": 0,
+      "key": "n1",
+      "time": 430,
+      "segment": 5
+    },
+    {
+      "at": 4,
+      "key": "n2",
+      "time": 434,
+      "segment": 5
+    },
+    {
+      "at": 8,
+      "key": "n3",
+      "time": 438,
+      "segment": 5
+    },
+    {
+      "at": 12,
+      "key": "n4",
+      "time": 442,
+      "segment": 5
+    },
+    {
+      "at": 16,
+      "key": "n5",
+      "time": 446,
+      "segment": 5
+    },
+    {
+      "at": 20,
+      "key": "n6",
+      "time": 450,
+      "segment": 5
+    },
+    {
+      "at": 24,
+      "key": "n7",
+      "time": 454,
+      "segment": 5
+    },
+    {
+      "at": 28,
+      "key": "n8",
+      "time": 458,
+      "segment": 5
+    },
+    {
+      "at": 32,
+      "key": "n9",
+      "time": 462,
+      "segment": 5
+    },
+    {
+      "at": 36,
+      "key": "n10",
+      "time": 466,
+      "segment": 5
+    },
+    {
+      "at": 0,
+      "key": "rest2",
+      "time": 470,
+      "segment": 6
+    },
+    {
+      "at": 50,
+      "key": "restEnd",
+      "time": 520,
+      "segment": 6
+    },
+    {
+      "at": 0,
+      "key": "row",
+      "time": 530,
+      "segment": 7
+    },
+    {
+      "at": 1.6984583333333332,
+      "key": "set2",
+      "time": 531.6984583333333,
+      "segment": 7
+    },
+    {
+      "at": 2.8625833333333333,
+      "key": "sideRight",
+      "time": 532.8625833333333,
+      "segment": 7
+    },
+    {
+      "at": 4.026291666666666,
+      "key": "rowCue",
+      "time": 534.0262916666667,
+      "segment": 7
+    },
+    {
+      "at": 8.288125,
+      "key": "ready",
+      "time": 538.288125,
+      "segment": 7
+    },
+    {
+      "at": 0,
+      "key": "n1",
+      "time": 543,
+      "segment": 8
+    },
+    {
+      "at": 4,
+      "key": "n2",
+      "time": 547,
+      "segment": 8
+    },
+    {
+      "at": 8,
+      "key": "n3",
+      "time": 551,
+      "segment": 8
+    },
+    {
+      "at": 12,
+      "key": "n4",
+      "time": 555,
+      "segment": 8
+    },
+    {
+      "at": 16,
+      "key": "n5",
+      "time": 559,
+      "segment": 8
+    },
+    {
+      "at": 20,
+      "key": "n6",
+      "time": 563,
+      "segment": 8
+    },
+    {
+      "at": 24,
+      "key": "n7",
+      "time": 567,
+      "segment": 8
+    },
+    {
+      "at": 28,
+      "key": "n8",
+      "time": 571,
+      "segment": 8
+    },
+    {
+      "at": 32,
+      "key": "n9",
+      "time": 575,
+      "segment": 8
+    },
+    {
+      "at": 36,
+      "key": "n10",
+      "time": 579,
+      "segment": 8
+    },
+    {
+      "at": 0,
+      "key": "rest3",
+      "time": 583,
+      "segment": 9
+    },
+    {
+      "at": 50,
+      "key": "restEnd",
+      "time": 633,
+      "segment": 9
+    },
+    {
+      "at": 0,
+      "key": "row",
+      "time": 643,
+      "segment": 10
+    },
+    {
+      "at": 1.6984583333333332,
+      "key": "set2",
+      "time": 644.6984583333333,
+      "segment": 10
+    },
+    {
+      "at": 2.8625833333333333,
+      "key": "sideLeft",
+      "time": 645.8625833333333,
+      "segment": 10
+    },
+    {
+      "at": 3.894375,
+      "key": "rowCue",
+      "time": 646.894375,
+      "segment": 10
+    },
+    {
+      "at": 8.156208333333334,
+      "key": "ready",
+      "time": 651.1562083333333,
+      "segment": 10
+    },
+    {
+      "at": 0,
+      "key": "n1",
+      "time": 656,
+      "segment": 11
+    },
+    {
+      "at": 4,
+      "key": "n2",
+      "time": 660,
+      "segment": 11
+    },
+    {
+      "at": 8,
+      "key": "n3",
+      "time": 664,
+      "segment": 11
+    },
+    {
+      "at": 12,
+      "key": "n4",
+      "time": 668,
+      "segment": 11
+    },
+    {
+      "at": 16,
+      "key": "n5",
+      "time": 672,
+      "segment": 11
+    },
+    {
+      "at": 20,
+      "key": "n6",
+      "time": 676,
+      "segment": 11
+    },
+    {
+      "at": 24,
+      "key": "n7",
+      "time": 680,
+      "segment": 11
+    },
+    {
+      "at": 28,
+      "key": "n8",
+      "time": 684,
+      "segment": 11
+    },
+    {
+      "at": 32,
+      "key": "n9",
+      "time": 688,
+      "segment": 11
+    },
+    {
+      "at": 36,
+      "key": "n10",
+      "time": 692,
+      "segment": 11
+    },
+    {
+      "at": 0,
+      "key": "rest",
+      "time": 696,
+      "segment": 12
+    },
+    {
+      "at": 50,
+      "key": "restEnd",
+      "time": 746,
+      "segment": 12
+    },
+    {
+      "at": 0,
+      "key": "face",
+      "time": 756,
+      "segment": 13
+    },
+    {
+      "at": 1.6432083333333334,
+      "key": "set1",
+      "time": 757.6432083333333,
+      "segment": 13
+    },
+    {
+      "at": 2.886916666666667,
+      "key": "faceHint",
+      "time": 758.8869166666667,
+      "segment": 13
+    },
+    {
+      "at": 9.806916666666666,
+      "key": "ready",
+      "time": 765.8069166666667,
+      "segment": 13
+    },
+    {
+      "at": 0,
+      "key": "n1",
+      "time": 771,
+      "segment": 14
+    },
+    {
+      "at": 4,
+      "key": "n2",
+      "time": 775,
+      "segment": 14
+    },
+    {
+      "at": 8,
+      "key": "n3",
+      "time": 779,
+      "segment": 14
+    },
+    {
+      "at": 12,
+      "key": "n4",
+      "time": 783,
+      "segment": 14
+    },
+    {
+      "at": 16,
+      "key": "n5",
+      "time": 787,
+      "segment": 14
+    },
+    {
+      "at": 20,
+      "key": "n6",
+      "time": 791,
+      "segment": 14
+    },
+    {
+      "at": 24,
+      "key": "n7",
+      "time": 795,
+      "segment": 14
+    },
+    {
+      "at": 28,
+      "key": "n8",
+      "time": 799,
+      "segment": 14
+    },
+    {
+      "at": 32,
+      "key": "n9",
+      "time": 803,
+      "segment": 14
+    },
+    {
+      "at": 36,
+      "key": "n10",
+      "time": 807,
+      "segment": 14
+    },
+    {
+      "at": 40,
+      "key": "n11",
+      "time": 811,
+      "segment": 14
+    },
+    {
+      "at": 44,
+      "key": "n12",
+      "time": 815,
+      "segment": 14
+    },
+    {
+      "at": 0,
+      "key": "rest2",
+      "time": 819,
+      "segment": 15
+    },
+    {
+      "at": 50,
+      "key": "restEnd",
+      "time": 869,
+      "segment": 15
+    },
+    {
+      "at": 0,
+      "key": "face",
+      "time": 879,
+      "segment": 16
+    },
+    {
+      "at": 1.6432083333333334,
+      "key": "set2",
+      "time": 880.6432083333333,
+      "segment": 16
+    },
+    {
+      "at": 2.8073333333333332,
+      "key": "faceCue",
+      "time": 881.8073333333333,
+      "segment": 16
+    },
+    {
+      "at": 6.54425,
+      "key": "ready",
+      "time": 885.54425,
+      "segment": 16
+    },
+    {
+      "at": 0,
+      "key": "n1",
+      "time": 891,
+      "segment": 17
+    },
+    {
+      "at": 4,
+      "key": "n2",
+      "time": 895,
+      "segment": 17
+    },
+    {
+      "at": 8,
+      "key": "n3",
+      "time": 899,
+      "segment": 17
+    },
+    {
+      "at": 12,
+      "key": "n4",
+      "time": 903,
+      "segment": 17
+    },
+    {
+      "at": 16,
+      "key": "n5",
+      "time": 907,
+      "segment": 17
+    },
+    {
+      "at": 20,
+      "key": "n6",
+      "time": 911,
+      "segment": 17
+    },
+    {
+      "at": 24,
+      "key": "n7",
+      "time": 915,
+      "segment": 17
+    },
+    {
+      "at": 28,
+      "key": "n8",
+      "time": 919,
+      "segment": 17
+    },
+    {
+      "at": 32,
+      "key": "n9",
+      "time": 923,
+      "segment": 17
+    },
+    {
+      "at": 36,
+      "key": "n10",
+      "time": 927,
+      "segment": 17
+    },
+    {
+      "at": 40,
+      "key": "n11",
+      "time": 931,
+      "segment": 17
+    },
+    {
+      "at": 44,
+      "key": "n12",
+      "time": 935,
+      "segment": 17
+    },
+    {
+      "at": 0,
+      "key": "rest3",
+      "time": 939,
+      "segment": 18
+    },
+    {
+      "at": 50,
+      "key": "restEnd",
+      "time": 989,
+      "segment": 18
+    },
+    {
+      "at": 0,
+      "key": "raise",
+      "time": 999,
+      "segment": 19
+    },
+    {
+      "at": 1.62475,
+      "key": "set1",
+      "time": 1000.62475,
+      "segment": 19
+    },
+    {
+      "at": 2.8684583333333333,
+      "key": "raiseHint",
+      "time": 1001.8684583333334,
+      "segment": 19
+    },
+    {
+      "at": 10.147958333333333,
+      "key": "ready",
+      "time": 1009.1479583333333,
+      "segment": 19
+    },
+    {
+      "at": 0,
+      "key": "n1",
+      "time": 1014,
+      "segment": 20
+    },
+    {
+      "at": 4,
+      "key": "n2",
+      "time": 1018,
+      "segment": 20
+    },
+    {
+      "at": 8,
+      "key": "n3",
+      "time": 1022,
+      "segment": 20
+    },
+    {
+      "at": 12,
+      "key": "n4",
+      "time": 1026,
+      "segment": 20
+    },
+    {
+      "at": 16,
+      "key": "n5",
+      "time": 1030,
+      "segment": 20
+    },
+    {
+      "at": 20,
+      "key": "n6",
+      "time": 1034,
+      "segment": 20
+    },
+    {
+      "at": 24,
+      "key": "n7",
+      "time": 1038,
+      "segment": 20
+    },
+    {
+      "at": 28,
+      "key": "n8",
+      "time": 1042,
+      "segment": 20
+    },
+    {
+      "at": 32,
+      "key": "n9",
+      "time": 1046,
+      "segment": 20
+    },
+    {
+      "at": 36,
+      "key": "n10",
+      "time": 1050,
+      "segment": 20
+    },
+    {
+      "at": 0,
+      "key": "rest",
+      "time": 1054,
+      "segment": 21
+    },
+    {
+      "at": 50,
+      "key": "restEnd",
+      "time": 1104,
+      "segment": 21
+    },
+    {
+      "at": 0,
+      "key": "raise",
+      "time": 1114,
+      "segment": 22
+    },
+    {
+      "at": 1.62475,
+      "key": "set2",
+      "time": 1115.62475,
+      "segment": 22
+    },
+    {
+      "at": 2.788875,
+      "key": "raiseCue",
+      "time": 1116.788875,
+      "segment": 22
+    },
+    {
+      "at": 6.116875,
+      "key": "ready",
+      "time": 1120.116875,
+      "segment": 22
+    },
+    {
+      "at": 0,
+      "key": "n1",
+      "time": 1125,
+      "segment": 23
+    },
+    {
+      "at": 4,
+      "key": "n2",
+      "time": 1129,
+      "segment": 23
+    },
+    {
+      "at": 8,
+      "key": "n3",
+      "time": 1133,
+      "segment": 23
+    },
+    {
+      "at": 12,
+      "key": "n4",
+      "time": 1137,
+      "segment": 23
+    },
+    {
+      "at": 16,
+      "key": "n5",
+      "time": 1141,
+      "segment": 23
+    },
+    {
+      "at": 20,
+      "key": "n6",
+      "time": 1145,
+      "segment": 23
+    },
+    {
+      "at": 24,
+      "key": "n7",
+      "time": 1149,
+      "segment": 23
+    },
+    {
+      "at": 28,
+      "key": "n8",
+      "time": 1153,
+      "segment": 23
+    },
+    {
+      "at": 32,
+      "key": "n9",
+      "time": 1157,
+      "segment": 23
+    },
+    {
+      "at": 36,
+      "key": "n10",
+      "time": 1161,
+      "segment": 23
+    },
+    {
+      "at": 0,
+      "key": "rest2",
+      "time": 1165,
+      "segment": 24
+    },
+    {
+      "at": 50,
+      "key": "restEnd",
+      "time": 1215,
+      "segment": 24
+    },
+    {
+      "at": 0,
+      "key": "wall",
+      "time": 1225,
+      "segment": 25
+    },
+    {
+      "at": 1.4062916666666667,
+      "key": "set1",
+      "time": 1226.4062916666667,
+      "segment": 25
+    },
+    {
+      "at": 2.6500000000000004,
+      "key": "wallHint",
+      "time": 1227.65,
+      "segment": 25
+    },
+    {
+      "at": 8.380791666666667,
+      "key": "ready",
+      "time": 1233.3807916666667,
+      "segment": 25
+    },
+    {
+      "at": 0,
+      "key": "n1",
+      "time": 1238,
+      "segment": 26
+    },
+    {
+      "at": 4,
+      "key": "n2",
+      "time": 1242,
+      "segment": 26
+    },
+    {
+      "at": 8,
+      "key": "n3",
+      "time": 1246,
+      "segment": 26
+    },
+    {
+      "at": 12,
+      "key": "n4",
+      "time": 1250,
+      "segment": 26
+    },
+    {
+      "at": 16,
+      "key": "n5",
+      "time": 1254,
+      "segment": 26
+    },
+    {
+      "at": 20,
+      "key": "n6",
+      "time": 1258,
+      "segment": 26
+    },
+    {
+      "at": 24,
+      "key": "n7",
+      "time": 1262,
+      "segment": 26
+    },
+    {
+      "at": 28,
+      "key": "n8",
+      "time": 1266,
+      "segment": 26
+    },
+    {
+      "at": 0,
+      "key": "transition",
+      "time": 1270,
+      "segment": 27
+    },
+    {
+      "at": 8.9665,
+      "key": "ready",
+      "time": 1278.9665,
+      "segment": 27
+    },
+    {
+      "at": 0,
+      "key": "marchHint",
+      "time": 1284,
+      "segment": 28
+    },
+    {
+      "at": 35,
+      "key": "last",
+      "time": 1319,
+      "segment": 28
+    },
+    {
+      "at": 0,
+      "key": "easy",
+      "time": 1324,
+      "segment": 29
+    },
+    {
+      "at": 0,
+      "key": "stepHint",
+      "time": 1344,
+      "segment": 30
+    },
+    {
+      "at": 35,
+      "key": "last",
+      "time": 1379,
+      "segment": 30
+    },
+    {
+      "at": 0,
+      "key": "easy",
+      "time": 1384,
+      "segment": 31
+    },
+    {
+      "at": 0,
+      "key": "boxHint",
+      "time": 1404,
+      "segment": 32
+    },
+    {
+      "at": 35,
+      "key": "last",
+      "time": 1439,
+      "segment": 32
+    },
+    {
+      "at": 0,
+      "key": "easy",
+      "time": 1444,
+      "segment": 33
+    },
+    {
+      "at": 0,
+      "key": "marchHint",
+      "time": 1464,
+      "segment": 34
+    },
+    {
+      "at": 35,
+      "key": "last",
+      "time": 1499,
+      "segment": 34
+    },
+    {
+      "at": 0,
+      "key": "halfway",
+      "time": 1504,
+      "segment": 35
+    },
+    {
+      "at": 0,
+      "key": "stepHint",
+      "time": 1524,
+      "segment": 36
+    },
+    {
+      "at": 35,
+      "key": "last",
+      "time": 1559,
+      "segment": 36
+    },
+    {
+      "at": 0,
+      "key": "easy",
+      "time": 1564,
+      "segment": 37
+    },
+    {
+      "at": 0,
+      "key": "boxHint",
+      "time": 1584,
+      "segment": 38
+    },
+    {
+      "at": 35,
+      "key": "last",
+      "time": 1619,
+      "segment": 38
+    },
+    {
+      "at": 0,
+      "key": "easy",
+      "time": 1624,
+      "segment": 39
+    },
+    {
+      "at": 0,
+      "key": "marchHint",
+      "time": 1644,
+      "segment": 40
+    },
+    {
+      "at": 35,
+      "key": "last",
+      "time": 1679,
+      "segment": 40
+    },
+    {
+      "at": 0,
+      "key": "easy",
+      "time": 1684,
+      "segment": 41
+    },
+    {
+      "at": 0,
+      "key": "stepHint",
+      "time": 1704,
+      "segment": 42
+    },
+    {
+      "at": 35,
+      "key": "last",
+      "time": 1739,
+      "segment": 42
+    },
+    {
+      "at": 0,
+      "key": "easy",
+      "time": 1744,
+      "segment": 43
+    },
+    {
+      "at": 0,
+      "key": "cooldown",
+      "time": 1764,
+      "segment": 44
+    },
+    {
+      "at": 90,
+      "key": "cooldownChest",
+      "time": 1854,
+      "segment": 44
+    },
+    {
+      "at": 120,
+      "key": "cooldownSwitch",
+      "time": 1884,
+      "segment": 44
+    },
+    {
+      "at": 150,
+      "key": "cooldownBreath",
+      "time": 1914,
+      "segment": 44
+    },
+    {
+      "at": 0,
+      "key": "finish",
+      "time": 1944,
+      "segment": 45
+    }
+  ]
+}
